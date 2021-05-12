@@ -7,14 +7,14 @@ Crawler目录下是我们使用的简单的爬虫
 
 ===================================
 
-Bot使用：
+#Bot使用：
 
 在datapreprocess.py中修改数据集的设置
 对语料库进行预处理，产生corpus.pth （已经上传好corpus.pth, 可跳过）
 
 可修改参数:
 
-# datapreprocess.py
+datapreprocess.py
 corpus_file = 'clean_chat_corpus/qingyun.tsv' #未处理的对话数据集
 save_path = 'corpus.pth' #已处理的对话数据集保存路径
 
@@ -25,7 +25,7 @@ save_path = 'corpus.pth' #已处理的对话数据集保存路径
 - python3 train_eval.py train
 
 可修改参数:
-# config.py
+config.py
 model_ckpt='checkpoints/chatbot_0509_1437' #模型路径
 
 实际运行聊天
@@ -33,7 +33,7 @@ model_ckpt='checkpoints/chatbot_0509_1437' #模型路径
 
 ====================================
 
-Crawler使用：
+# Crawler使用：
 
 testbs.py是爬虫
 
